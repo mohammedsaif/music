@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN""http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="index.css"><script type="text/javascript" src="jquery.js"></script>
+    <script>
+	$(document).ready(function(e) {
+        $('#player').toggle();
+$('div').click(function(e) {
+            $('#player').attr('src','create.php?album='+e.target.id);
+			        $('#player').show('fast');
+        });
+
+    });
+			
+	</script>
+</head>
+<body>
+<div id="Jannat2">
+Jannat2</div>
+<div id="Ek Deewana Hai">
+Ek Deewana Hai</div>
+<div id="Jaane Tu Ya Jaane Na">
+Jaane Tu Ya Jaane Na</div>
+<div id="Tere Naal Love Ho Gaya">
+Tere Naal Love Ho Gaya</div>
+<iframe id="player" ></iframe>
+
+</body>
+</html>

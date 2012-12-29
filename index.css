@@ -1,0 +1,10 @@
+div{border: double #FF00FF;
+cursor:pointer;
+}
+#player{
+	position:absolute;
+	right:500px;
+	width:450px;
+	height:500px;
+	
+	}
